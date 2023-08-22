@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=yes"
+    />
+
+    <meta name="description" content="Kenzie" />
+    <meta name="author" content="Kenzie" />
+    <meta name="keywords" content="Kenzie" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Title Page-->
+    <title>The Climb</title>
+
+    <!-- CSS-->
+  <link href="style.css" rel="stylesheet" media="all" />
+
+  </head>
+  <body id="body">
+
+    <div class="big-container">
+      <div class="big-container-row-one">
+        <div class="upper-row-one">
+            <div class="wheel-container"></div>
+            <div class="number-container"></div>
+          </div>
+
+        <div class="upper-row-two">
+              <div id="theClimb"><u>THE CLIMB</u></div>
+              <button class="spin"><b>Start</b></button>
+              <div class="nam-tur-tim">
+                <div class="turns">Turn Count:</div>
+                <div class="name" id="name">
+                <div class="name-input"><input class="user-name" name="user-name" type="text" placeholder="Enter Name" minlength="2" maxlength="8" size="15"><button class="submit">SUBMIT</button></div>
+                <div class="time"><h3>Timer</h3>
+                  <p><span id="minutes"></span><span id="seconds"></span><span id="tens"></span></p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      <div class="upper-row-three">
+          <box class="ins"><b><u>Instructions</b></u></br>
+               Enter your name for the leaderboard</br>Press "Start" to start the timer and the first turn</br>Time runs until you reach the end</br> Answer the question correctly to move
+              </br>Reach the Finish Space to win</br>The fewer the turns the better!     
+          </box>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+  <div class="big-container-row-two">
+
+    <boxTwo class="leader"> <b><u>Leaderboard</b></u></br>
+        <table class="l-board">
+          <tr>
+            <td>Ranks</td><td>Name</td><td>Turns</td><td>Time</td></tr>
+        </table>
+    </boxTwo> 
+
+    <img class="game" src="/game-v2/space-1.png"></img>
+
+    <boxThree class="question">
+        <table class="qTable">
+          <tr><td class="title"><b>Question: 1</b></td>
+            <tr><td><button id="answer" class = answerOne></button></td></tr>
+            <tr><td><button id="answer" class = answerTwo></button></td></tr>
+            <tr><td><button id="answer" class = answerThree></button></td></tr>
+            <tr><td><button id="answer" class="answerFour"></button></td></tr>
+        </table>
+    </boxThree>
+  </div>
+
+  </div>
+  <script  src="code.js" type ="module"></script>
+</body>
+</html>

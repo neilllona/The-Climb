@@ -1,0 +1,290 @@
+/* Write your CSS Here. */
+
+.big-container {
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+    .big-container-row-one {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+        .upper-row-one {
+            display:flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            margin-left: -300px;
+            margin-right: -300px;
+            margin-top: -100px;
+        }
+
+             .wheel-container {
+            width: 900px;
+            }
+
+            .number-container {
+                margin-top: -250px;
+                
+                
+               }
+            
+
+    .upper-row-two {
+        display: flex;
+        flex-direction: column;
+    }
+       
+
+        #theClimb{
+            -webkit-text-fill-color: rgb(248, 250, 250);
+            font-family: 'Handjet';
+            text-align: center;
+            font-size: 170px;
+            transform: rotate(-10deg);
+            background-color: black;
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+            text-align: center;
+            margin-top: 45px;
+            margin-bottom: 20px;
+        }
+
+        .spin {
+            align-items: center;
+            appearance: none;
+            -webkit-text-fill-color: rgb(0, 2, 2);
+            background-color: #0ece0e;
+            border-radius: 4px;
+            border-width: 0;
+            box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#595a59 0 -3px 0 inset;
+            box-sizing: border-box;
+            color: #36395A;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: 'Handjet';
+            width: 120px;
+            height: 80px;
+            justify-content: center;
+            line-height: 1;
+            list-style: none;
+            overflow: hidden;
+            padding-left: 16px;
+            padding-right: 16px;
+            position: relative;
+            text-align: left;
+            text-decoration: none;
+            transition: box-shadow .15s,transform .15s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            will-change: box-shadow,transform;
+            font-size: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+          }
+          
+          .spin:focus {
+            box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+          }
+          
+          .spin:hover {
+            box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+            transform: translateY(-2px);
+          }
+          
+          .spin:active {
+            box-shadow: #D6D6E7 0 3px 7px inset;
+            transform: translateY(2px);
+          }
+
+          .nam-tur-tim {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: -35px;
+        }
+            .turns {
+                margin-bottom: -150px;
+                -webkit-text-fill-color: azure;
+                font-family: 'Handjet';
+                font-size: 30px;
+                text-align: center;
+            }
+
+            
+
+            #name {
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                text-align: center;
+                text-decoration-color: white;
+                font-family: 'Handjet';
+                height: auto;
+                font-size: 30px;
+            }
+
+            .user-name {
+                height: auto;
+                width: 150px;
+                font-size: 20px;
+                text-align: center;
+                text-decoration-color: white;
+                font: bold;
+            }
+
+            h3 {
+                font-family: 'Handjet';
+                -webkit-text-fill-color: azure;
+            }
+            .time {
+                margin-top: -50px;
+                font-family: 'Handjet';
+                -webkit-text-fill-color: azure;
+                text-align: center;
+                font-size: 30px;
+            }
+
+            #minutes {
+                font-family: 'Handjet';
+                -webkit-text-fill-color: azure;
+            }
+
+            #seconds {
+                font-family: 'Handjet';
+                -webkit-text-fill-color: azure;
+            }
+
+            #tens {
+                font-family: 'Handjet';
+                -webkit-text-fill-color: azure;
+            }
+
+    .upper-row-three{
+        display: flex;
+        flex-direction: column;
+    }
+        
+        .ins {
+            padding: 10px;
+            border: 6px solid #aa0505;
+            background-color: black;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Handjet';
+            -webkit-text-fill-color: azure;
+            margin-top: 100px;
+            margin-right: -150px;
+            
+        }
+        .name-imput {
+            font-size: 20px;
+        }
+
+            
+
+    .big-container-row-two {
+        display: flex;
+        flex-direction: row;
+    }
+
+        .leader {
+            padding: 10px;
+            border: 6px solid #aa0505;
+            align-self: flex-start;
+            background-color: black;
+            align-self: center;
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Handjet';
+            -webkit-text-fill-color: azure;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .game {
+            margin-top: -155px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 750px;
+
+        }
+
+        .question {
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+            max-width: 500px;
+            min-width: 500px;
+            align-self: flex-start;
+            border: 6px solid #aa0505;
+            background-color: black;
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Handjet';
+            -webkit-text-fill-color: azure;
+        }
+
+                .qTable{
+                    max-width: 500px;
+                    min-width: 500px;
+                }
+
+                table {
+                    border-collapse: collapse;
+                    border: 2px solid rgb(200,200,200);
+                    
+                }
+                
+                .title {
+                    font-size: 30px;
+                }
+                td, th {
+                    border: 1px solid rgb(190,190,190);
+                    padding: 10px 20px;
+                }
+                
+                th {
+                    background-color: rgb(235,235,235);
+                }
+                
+                td {
+                    text-align: center;
+                }
+
+                .answerOne {
+                    font-size: 30px;
+                    -webkit-text-fill-color: rgb(0, 3, 3);
+                    width: 400px;
+                    background-color: rgb(247, 244, 244);
+                }
+
+                .answerTwo {
+                    font-size: 30px;
+                    -webkit-text-fill-color: rgb(0, 3, 3);
+                    width: 400px;
+                    background-color: rgb(247, 244, 244);
+                }
+
+                .answerThree {
+                    font-size: 30px;
+                    -webkit-text-fill-color: rgb(0, 3, 3);
+                    width: 400px;
+                    background-color: rgb(247, 244, 244);
+                }
+
+                .answerFour {
+                    font-size: 30px;
+                    -webkit-text-fill-color: rgb(0, 3, 3);
+                    width: 400px;
+                    background-color: rgb(247, 244, 244);
+                }
+
+                
+
