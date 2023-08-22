@@ -69,7 +69,7 @@ bigContainer.appendChild(bcRowTwo)
    bcRowTwo.appendChild(leader);
    leader.appendChild(table);
  bcRowTwo.appendChild(game);
- game.src="/game-v2/space-1.png"
+ game.src="/images/game-v2/space-1.png"
  bcRowTwo.appendChild(question);
    question.appendChild(qTable);
 
@@ -519,7 +519,7 @@ let mover = function(number){
   if (board.currentSpace < 19){
     for (let i = 0; i < number; i++) {
         board.currentSpace++
-        game.src = `/game-v2/space-${board.currentSpace}.png`
+        game.src = `/images/game-v2/space-${board.currentSpace}.png`
           }
           nextTurn();
     }
