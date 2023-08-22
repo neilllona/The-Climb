@@ -396,9 +396,7 @@ let display = function (parameter){
   answerArray.push(parameter[0].incorrectAnswers[0]);
   answerArray.push(parameter[0].incorrectAnswers[1]);
   answerArray.push(parameter[0].incorrectAnswers[2]);
-  console.log(parameter);
-  console.log(answerArray)
-  console.log(parameter[0].question);
+
   shuffle(answerArray)
   title.innerText = `${parameter[0].question.text}`
   answerOne.innerText = `${answerArray[0]}`
